@@ -1,0 +1,57 @@
+04/02/2024 03:46:17 PM Updated user: devang 04/02/2024 03:46:17 PM - INFO - Updated user: devang
+04/02/2024 03:46:17 PM Retrieved user: devang 04/02/2024 03:46:17 PM - INFO - Retrieved user: devang
+04/02/2024 03:46:17 PM Added user: u2 04/02/2024 03:46:17 PM - INFO - Added user: u2
+04/02/2024 03:53:10 PM Updated user: devang 04/02/2024 03:53:10 PM - INFO - Updated user: devang
+04/02/2024 03:53:10 PM Retrieved user: devang 04/02/2024 03:53:10 PM - INFO - Retrieved user: devang
+04/02/2024 03:53:10 PM Updated email for user: u2 04/02/2024 03:53:10 PM - INFO - Updated email for user: u2
+04/02/2024 03:54:23 PM Updated user: devang 04/02/2024 03:54:23 PM - INFO - Updated user: devang
+04/02/2024 03:54:23 PM Retrieved user: devang 04/02/2024 03:54:23 PM - INFO - Retrieved user: devang
+04/02/2024 03:54:23 PM Updated email for user: u2 is u232@gmail.com 04/02/2024 03:54:23 PM - INFO - Updated email for user: u2 is u232@gmail.com
+04/02/2024 03:55:28 PM Updated user: devang 04/02/2024 03:55:28 PM - INFO 
+04/02/2024 03:55:28 PM Retrieved user: devang 04/02/2024 03:55:28 PM - INFO 
+04/02/2024 03:55:28 PM Updated email for user: u2 is u232@gmail.com 04/02/2024 03:55:28 PM - INFO 
+04/02/2024 03:58:07 PM Updated user: devang 04/02/2024 03:58:07 PM - INFO 
+04/02/2024 03:58:07 PM Retrieved user: devang 04/02/2024 03:58:07 PM - INFO 
+04/02/2024 03:58:07 PM Updated email for user: u2 is u232@gmail.com 04/02/2024 03:58:07 PM - INFO 
+04/02/2024 03:58:07 PM Added user: abcd 04/02/2024 03:58:07 PM - INFO 
+04/02/2024 03:58:07 PM Added user: test 04/02/2024 03:58:07 PM - INFO 
+04/02/2024 04:00:54 PM Updated user: devang 04/02/2024 04:00:54 PM - INFO 
+04/02/2024 04:00:54 PM Retrieved user: devang 04/02/2024 04:00:54 PM - INFO 
+04/02/2024 04:00:54 PM Updated email for user: u2 is u232@gmail.com 04/02/2024 04:00:54 PM - INFO 
+04/02/2024 04:00:54 PM Error adding user: abcd. Error: (mysql.connector.errors.IntegrityError) 1062 (23000): Duplicate entry 'abcd' for key 'users.username'
+[SQL: INSERT INTO users (username, email, full_name, created_at, updated_at) VALUES (%(username)s, %(email)s, %(full_name)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'username': 'abcd', 'email': 'a@gmail.com', 'full_name': 'aa cd', 'created_at': datetime.datetime(2024, 4, 2, 10, 30, 54, 418339, tzinfo=datetime.timezone.utc), 'updated_at': datetime.datetime(2024, 4, 2, 10, 30, 54, 418448, tzinfo=datetime.timezone.utc)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) 04/02/2024 04:00:54 PM - ERROR 
+04/02/2024 04:00:54 PM Error adding user: test. Error: (mysql.connector.errors.IntegrityError) 1062 (23000): Duplicate entry 'test' for key 'users.username'
+[SQL: INSERT INTO users (username, email, full_name, created_at, updated_at) VALUES (%(username)s, %(email)s, %(full_name)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'username': 'test', 'email': 'test@gmail.com', 'full_name': 'testing', 'created_at': datetime.datetime(2024, 4, 2, 10, 30, 54, 418339, tzinfo=datetime.timezone.utc), 'updated_at': datetime.datetime(2024, 4, 2, 10, 30, 54, 418448, tzinfo=datetime.timezone.utc)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) 04/02/2024 04:00:54 PM - ERROR 
+04/02/2024 04:36:02 PM Updated user: devang 04/02/2024 04:36:02 PM - INFO 
+04/02/2024 04:36:02 PM Retrieved user: devang 04/02/2024 04:36:02 PM - INFO 
+04/02/2024 04:36:02 PM Updated email for user: u2 is u232@gmail.com 04/02/2024 04:36:02 PM - INFO 
+04/02/2024 04:36:02 PM Error adding user: abcd. Error: (mysql.connector.errors.IntegrityError) 1062 (23000): Duplicate entry 'abcd' for key 'users.username'
+[SQL: INSERT INTO users (username, email, full_name, created_at, updated_at) VALUES (%(username)s, %(email)s, %(full_name)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'username': 'abcd', 'email': 'a@gmail.com', 'full_name': 'aa cd', 'created_at': datetime.datetime(2024, 4, 2, 11, 6, 2, 665461, tzinfo=datetime.timezone.utc), 'updated_at': datetime.datetime(2024, 4, 2, 11, 6, 2, 665566, tzinfo=datetime.timezone.utc)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) 04/02/2024 04:36:02 PM - ERROR 
+04/02/2024 04:36:02 PM Error adding user: test. Error: (mysql.connector.errors.IntegrityError) 1062 (23000): Duplicate entry 'test' for key 'users.username'
+[SQL: INSERT INTO users (username, email, full_name, created_at, updated_at) VALUES (%(username)s, %(email)s, %(full_name)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'username': 'test', 'email': 'test@gmail.com', 'full_name': 'testing', 'created_at': datetime.datetime(2024, 4, 2, 11, 6, 2, 665461, tzinfo=datetime.timezone.utc), 'updated_at': datetime.datetime(2024, 4, 2, 11, 6, 2, 665566, tzinfo=datetime.timezone.utc)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) 04/02/2024 04:36:02 PM - ERROR 
+04/02/2024 04:55:19 PM Updated user: devang 04/02/2024 04:55:19 PM - INFO 
+04/02/2024 04:55:19 PM Retrieved user: devang 04/02/2024 04:55:19 PM - INFO 
+04/02/2024 04:55:19 PM Added user: hello 04/02/2024 04:55:19 PM - INFO 
+2024-04-02 16:56:15,356 Updated user: devang 2024-04-02 16:56:15,356 - INFO 
+2024-04-02 16:56:15,358 Retrieved user: devang 2024-04-02 16:56:15,358 - INFO 
+2024-04-02 16:56:15,362 Error adding user: hello. Error: (mysql.connector.errors.IntegrityError) 1062 (23000): Duplicate entry 'hello' for key 'users.username'
+[SQL: INSERT INTO users (username, email, full_name, created_at, updated_at) VALUES (%(username)s, %(email)s, %(full_name)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'username': 'hello', 'email': 'h@gmail.com', 'full_name': 'hello world', 'created_at': datetime.datetime(2024, 4, 2, 11, 26, 15, 315635, tzinfo=datetime.timezone.utc), 'updated_at': datetime.datetime(2024, 4, 2, 11, 26, 15, 315742, tzinfo=datetime.timezone.utc)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) 2024-04-02 16:56:15,362 - ERROR 
+2024-04-02 17:09:26,989 Updated user: devang 2024-04-02 17:09:26,989 - INFO 
+2024-04-02 17:09:26,991 Retrieved user: devang 2024-04-02 17:09:26,991 - INFO 
+2024-04-02 17:09:26,995 Error adding user: hello. Error: (mysql.connector.errors.IntegrityError) 1062 (23000): Duplicate entry 'hello' for key 'users.username'
+[SQL: INSERT INTO users (username, email, full_name, created_at, updated_at) VALUES (%(username)s, %(email)s, %(full_name)s, %(created_at)s, %(updated_at)s)]
+[parameters: {'username': 'hello', 'email': 'h@gmail.com', 'full_name': 'hello world', 'created_at': datetime.datetime(2024, 4, 2, 11, 39, 26, 948601, tzinfo=datetime.timezone.utc), 'updated_at': datetime.datetime(2024, 4, 2, 11, 39, 26, 948703, tzinfo=datetime.timezone.utc)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) 2024-04-02 17:09:26,995 - ERROR 
+2024-04-02 17:10:00,226 Updated user: devang 2024-04-02 17:10:00,226 - INFO 
+2024-04-02 17:10:00,228 Retrieved user: devang 2024-04-02 17:10:00,228 - INFO 
+2024-04-02 17:10:00,234 Added user: test1 2024-04-02 17:10:00,234 - INFO 
